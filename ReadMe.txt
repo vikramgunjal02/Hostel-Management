@@ -9,10 +9,6 @@ Step-3
  go to SQLResultSetGenerator.java file
  update username and password accordingly
  and then javac SQLResultSetGenerator.java
-
+ 
 Step-4
-Run project using following command
-java -cp .;mysql-connector-java-5.1.18-bin.jar Login
-
-Step-5 
 To log in use username = Admin and Password = A111
