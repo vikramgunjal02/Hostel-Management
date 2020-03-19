@@ -1,0 +1,21 @@
+mysql> create database HostelManagementData;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use HostelManagementData;
+Database changed
+mysql> create table login(id integer NOT NULL AUTO_INCREMENT, user varchar(50), password varchar(25), primary key (id));
+Query OK, 0 rows affected (0.13 sec)
+
+mysql> insert into login (user,password) values ('Admin','A111');
+Query OK, 1 row affected (0.06 sec)
+
+mysql> insert into login (user,password) values ('Dipali','D111');
+Query OK, 1 row affected (0.08 sec)
+
+mysql> create table room(id integer NOT NULL AUTO_INCREMENT,no integer,capacity integer,allocated integer, primary key(id));
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> create table students(id integer NOT NULL AUTO_INCREMENT,name varchar(50),address varchar(250),department varchar(50),roomno integer, primary key(id));
+Query OK, 0 rows affected (0.09 sec)
+
+mysql>create table registerentries(id integer NOT NULL AUTO_INCREMENT,studentid varchar(50),type varchar(250),time varchar(50),date varchar(50), primary key(id));
