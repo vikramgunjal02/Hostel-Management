@@ -58,7 +58,7 @@ public class Home extends JFrame  implements ActionListener
 		l1.setBounds(x/2-180,y/2+100,600,100);
 		l1.setFont(new Font("Serif", Font.BOLD, 25));
 		l1.setForeground(Color.blue);
-		l2=new JLabel("Project by - Gunjal Dipali, \n\tGhonge Kshitij, Kavde Rutuja, Hase Dhanashree");
+		l2=new JLabel("Project by - Gunjal Vikram");
 		l2.setBounds(x/2-280,y/2+200,500,20);
 		l2.setFont(new Font("Serif", Font.ITALIC, 16));
 		l2.setForeground(Color.blue);
